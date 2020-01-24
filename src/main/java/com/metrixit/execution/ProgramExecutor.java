@@ -4,6 +4,7 @@ import com.metrixit.shape.DrawShapeApplication;
 import com.metrixit.shape.Rectangle;
 import com.metrixit.test.Car;
 import com.metrixit.test.Circle;
+import com.metrixit.test.MyRectangle;
 
 public class ProgramExecutor {
 
@@ -15,7 +16,7 @@ public class ProgramExecutor {
 		//toyotaHighlander.protectedInstanceVariable = "";
 		//toyotaHighlander.drive();	
 		
-		Rectangle rec = new Rectangle();
+		Rectangle rec = new MyRectangle();
 		DrawShapeApplication drawShapeApplication = new DrawShapeApplication();
 		drawShapeApplication.processShape(rec);
 		
